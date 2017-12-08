@@ -1,0 +1,47 @@
+body{
+  background-image:url("https://i.imgur.com/7fT4qw2.jpg");
+  background-size:100%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: courier;
+  background-color: #000;
+  color: #8080ff;
+}
+.clock{
+  height: 70px;
+  width: 200px;
+  margin: 10px auto;
+  border: 2px #6666ff;
+  box-shadow: 0 0 0px 9px #3333ff;
+  border: 100%;
+  border-radius: 2px;
+}
+h3{
+  font-size: 40px;
+  color:white;
+}
+.timers div{
+  display: inline-block;
+  margin: 0px 10px;
+}
+.in{
+  display: inline-block;
+  margin: 15px;
+}
+button{
+  color: black;
+  background-color: #b3b3ff;
+  border:3;
+  outline: 3;
+  border-radius: 6px;
+}
+button:hover{
+  cursor: pointer;
+}
+#break, #count, button{
+  font-size: 30px; 
+}
+.title, .timer{
+  font-size: 50px;
+  margin-top:60px;
+}
